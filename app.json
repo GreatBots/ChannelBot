@@ -45,7 +45,7 @@
     "BOT_TOKEN": {
       "description": "Obtain a Telegram bot token by contacting @BotFather",
       "required": true,
-      "value": ""
+      "value": "5401050614:AAFiwhioI43jvbT-ulx92p3pcXagHKa7FP4"
     },
     "MUST_JOIN": {
       "description": "Add username/id of a channel/group",
