@@ -76,5 +76,5 @@ Language : [Python](www.python.org)
 
 Credits : [Special Thanks](https://graph.org/Credits-Of-ChannelActionBot-02-23)
 
-``If You Have Any Problems With This Bot, Kindly Report On`` @DevsChats.
+__If You Have Any Problems With This Bot, Kindly Report On__ @DevsChats.
           """
