@@ -26,16 +26,16 @@ buttons = InlineKeyboardMarkup([[                   InlineKeyboardButton("Add Me
 
     # Help Message
     HELP = """
-**Everything is self explanatory after you add a channel.**
+<b>Everything is self explanatory after you add a channel.</>
 To add a channel use keyboard button 'Add Channels' or alternatively for ease, use `/add` command
 
-**Available Commands ❓**
+<b>Available Commands ❓</>
 
 /about - About The Bot
 /help - This Message
 /start - Start the Bot
 
-**Alternative Commands 🛠**
+<b>Alternative Commands 🛠</>
 
 /channels - List added Channels
 /add - Add a channel
