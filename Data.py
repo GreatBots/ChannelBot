@@ -20,10 +20,11 @@ class Data:
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("About 🛡", callback_data="about")
-        ],
-        [InlineKeyboardButton("📣 Channel", url="https://t.me/MyOwnBots")],
-        [InlineKeyboardButton("🗯 Support", url="https://t.me/DevsChats")],
-    ]
+        ],[
+            InlineKeyboardButton("📣 Channel", url="https://t.me/MyOwnBots"),
+            InlineKeyboardButton("🗯 Support", url="https://t.me/DevsChats"),
+            ]
+        ]
 
     # Help Message
     HELP = """
