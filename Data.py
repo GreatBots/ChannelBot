@@ -25,8 +25,7 @@ buttons = InlineKeyboardMarkup([[                   InlineKeyboardButton("Add Me
      ]
 
     # Help Message
-    HELP = """
-<b>Everything is self explanatory after you add a channel.</>
+                                HELP = """<b>Everything is self explanatory after you add a channel.</>
 To add a channel use keyboard button 'Add Channels' or alternatively for ease, use `/add` command
 
 <b>Available Commands ❓</>
@@ -39,12 +38,10 @@ To add a channel use keyboard button 'Add Channels' or alternatively for ease, u
 
 /channels - List added Channels
 /add - Add a channel
-/report - Report a Problem
-    """
+/report - Report a Problem"""
 
     # About Message
-    ABOUT = """
-**📀 About This Bot** 
+                                ABOUT = """**📀 About This Bot** 
 
 Channel : [My Own Bots](https://MyOwnBots.t.me)
 
@@ -54,5 +51,4 @@ Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Credits : [Big Thanks](https://graph.org/Credits-Of-ChannelActionBot-02-23)
-    """
+Credits : [Big Thanks](https://graph.org/Credits-Of-ChannelActionBot-02-23)"""
