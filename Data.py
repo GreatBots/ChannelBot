@@ -9,20 +9,20 @@ class Data:
     """
 
     # Home Button
-    home_buttons = [
-        [InlineKeyboardButton(text="Back To Home", callback_data="home")],
-    ]
+    home_buttons = InlineKeyboardMarkup([[InlineKeyboardButton(text="Back To Home", callback_data="home")]])
 
-    # Rest Buttons
-    buttons = [
-        InlineKeyboardButton("Add Me To Your Channel", url="https://t.me/ChannelActionBot?start=group"),
-        [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("About", callback_data="about")
-        ],
-        InlineKeyboardButton("📣 Channel", url="https://t.me/MyOwnBots"),
-        InlineKeyboardButton("🗯 Support", url="https://t.me/DevsChats")
-    ]
+                                            
+
+     # Rest Buttons                                 
+buttons = InlineKeyboardMarkup([[                   InlineKeyboardButton("Add Me To Your Channel", url="https://t.me/ChannelActionBot?start=group"),
+
+         [                                                   InlineKeyboardButton("How to Use ❔", callback_data="help"),
+
+             InlineKeyboardButton("About", callback_data="about")
+
+         ],                                              InlineKeyboardButton("📣 Channel", url="https://t.me/MyOwnBots"),                               InlineKeyboardButton("🗯 Support", url="https://t.me/DevsChats")
+
+     ]
 
     # Help Message
     HELP = """
