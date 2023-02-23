@@ -55,5 +55,5 @@ Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Credits : [Big Thanks](tg://settings)
+Credits : [Big Thanks](https://graph.org/Credits-Of-ChannelActionBot-02-23)
     """
