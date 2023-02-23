@@ -4,7 +4,8 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-**👋 Hey {},**\n\n**💭 Welcome to {},** You can use me to **manage channels** with tons of features. Use below **buttons** to learn more.
+**👋 Hey {},**
+**💭 Welcome to {},** You can use me to **manage channels** with tons of features. Use below **buttons** to learn more.
     """
 
     # Home Button
@@ -16,11 +17,11 @@ class Data:
     buttons = [
         [InlineKeyboardButton("Add Me To Your Channel", url="https://t.me/ChannelActionBot?start=group")],
         [
-            [InlineKeyboardButton("How to Use ❔", callback_data="help")],
-            [InlineKeyboardButton("About", callback_data="about")]
+            InlineKeyboardButton("How to Use ❔", callback_data="help"),
+            InlineKeyboardButton("About", callback_data="about")
         ],
-        [InlineKeyboardButton("📣 Channel", url="https://t.me/MyOwnBots")],
-        [InlineKeyboardButton("🗯 Support", url="https://t.me/DevsChats")]
+        InlineKeyboardButton("📣 Channel", url="https://t.me/MyOwnBots"),
+        InlineKeyboardButton("🗯 Support", url="https://t.me/DevsChats")
     ]
 
     # Help Message
