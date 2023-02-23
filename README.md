@@ -12,7 +12,7 @@ Telegram bot to automate and manage channels.
 
 ### Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/StarkBotsIndustries/ChannelBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/GreatBots/ChannelBot)
 
 1. Tap on above button and fill `API_ID`, `API_HASH`, `BOT_TOKEN` (and `MUST_JOIN`).
 2. Then tap "Deploy App" below it. Wait till deploying is complete (will take atmost 2 minutes).
