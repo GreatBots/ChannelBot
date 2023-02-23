@@ -5,7 +5,8 @@ class Data:
     # Start Message
     START = """
 **👋 Hey {},**
-**💭 Welcome to {},** You can use me to manage channels with tons of features. Use below buttons to learn more.
+
+**💭 Welcome to {},** You can use me to **manage channels** with tons of features. Use below **buttons** to learn more.
     """
 
     # Home Button
@@ -18,15 +19,15 @@ class Data:
         [InlineKeyboardButton("Add Me To Your Channel", url="https://t.me/ChannelActionBot?start=group")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("About 🛡", callback_data="about")
+            InlineKeyboardButton("About", callback_data="about")
         ],
-        [InlineKeyboardButton("📣 Channel", url="https://t.me/MyOwnBots")],
-        [InlineKeyboardButton("🗯 Support", url="https://t.me/DevsChats")],
+            InlineKeyboardButton("📣 Channel", url="https://t.me/MyOwnBots"),
+            InlineKeyboardButton("🗯 Support", url="https://t.me/DevsChats")
     ]
 
     # Help Message
     HELP = """
-Everything is self explanatory after you add a channel.
+**Everything is self explanatory after you add a channel.**
 To add a channel use keyboard button 'Add Channels' or alternatively for ease, use `/add` command
 
 **Available Commands ❓**
@@ -35,7 +36,7 @@ To add a channel use keyboard button 'Add Channels' or alternatively for ease, u
 /help - This Message
 /start - Start the Bot
 
-**Alternative Commands:**
+**Alternative Commands 🛠**
 
 /channels - List added Channels
 /add - Add a channel
@@ -44,13 +45,15 @@ To add a channel use keyboard button 'Add Channels' or alternatively for ease, u
 
     # About Message
     ABOUT = """
-**About This Bot** 
+**📀 About This Bot** 
 
-Channel : [Support](https://devschats.t.me)
+Channel : [My Own Bots](https://MyOwnBots.t.me)
+
+Support : [Support Chat](https://DevsChats.t.me)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Credits : 
+Credits : [Big Thanks](tg://settings)
     """
