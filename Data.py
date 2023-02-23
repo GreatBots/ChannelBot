@@ -11,7 +11,7 @@ class Data:
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton(text="🏠 Home", callback_data="home")],
+        [InlineKeyboardButton(text="Back To Home", callback_data="home")],
     ]
 
     # Rest Buttons
@@ -19,10 +19,10 @@ class Data:
         [InlineKeyboardButton("Add Me To Your Channel", url="https://t.me/ChannelActionBot?start=group")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("About 🛡", callback_data="about")
+            InlineKeyboardButton("About", callback_data="about")
         ],[
-            InlineKeyboardButton("📣 Channel", url="https://t.me/MyOwnBots"),
-            InlineKeyboardButton("🗯 Support", url="https://t.me/DevsChats"),
+            InlineKeyboardButton("Channel", url="https://t.me/MyOwnBots"),
+            InlineKeyboardButton("Support", url="https://t.me/DevsChats"),
             ]
         ]
 
@@ -37,22 +37,28 @@ To add a channel use keyboard button 'Add Channels' or alternatively for ease, u
 /help - This Message
 /start - Start the Bot
 
-**Alternative Commands:**
+**Alternative Commands 🛠**
 
 /channels - List added Channels
 /add - Add a channel
 /report - Report a Problem
+
+If you have any more doubts/questions ask in @devschats you will definitely get support.
     """
 
     # About Message
     ABOUT = """
 **About This Bot** 
 
-Channel : [Support](https://devschats.t.me)
+Channel : [My Own Bots](https://myownbots.t.me)
+
+Group : [Support Chat](https://devschatst.me)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Credits : [Thanks](https://graph.org/Credits-Of-ChannelActionBot-02-23)
+Credits : [Special Thanks](https://graph.org/Credits-Of-ChannelActionBot-02-23)
+
+``If You Have Any Problems With This Bot, Kindly Report On @DevsChats``
           """
