@@ -4,9 +4,7 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-**👋 Hey {},**
-
-**💭 Welcome to {},** You can use me to **manage channels** with tons of features. Use below **buttons** to learn more.
+**👋 Hey {},**\n\n**💭 Welcome to {},** You can use me to **manage channels** with tons of features. Use below **buttons** to learn more.
     """
 
     # Home Button
