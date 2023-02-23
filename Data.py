@@ -10,12 +10,12 @@ class Data:
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton(text="🏠 Home", callback_data="home")],
+        [InlineKeyboardButton(text="Back To Home", callback_data="home")],
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("Add Me To Your Channel", url="https://t.me/ChannelActionBot?start=group")],
+        InlineKeyboardButton("Add Me To Your Channel", url="https://t.me/ChannelActionBot?start=group"),
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("About", callback_data="about")
