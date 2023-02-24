@@ -14,8 +14,6 @@ async def start(bot, msg):
 		reply_markup=InlineKeyboardMarkup(Data.buttons)
 	)
 	await bot.send_message(
-		msg.chat.id,
-		'Use below buttons to interact with me',
 		reply_markup=ReplyKeyboardMarkup(
 			[
 				['+ Add Channels +'],
