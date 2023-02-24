@@ -15,7 +15,7 @@ async def start(bot, msg):
 	)
 	await bot.send_message(
                 msg.chat.id,
-	
+	        'Use the buttons to contact with me',
 		reply_markup=ReplyKeyboardMarkup(
 			[
 				['+ Add Channels +'],
