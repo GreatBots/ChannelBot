@@ -60,21 +60,5 @@ Language : [Python](www.python.org)
 
 Credits : [Special Thanks](https://graph.org/Credits-Of-ChannelActionBot-02-23)
 
-``If You Have Any Problems With This Bot, Kindly Report On @DevsChats``
-    """
-    
-    ABOUT = """
-**About This Bot** 
-
-Channel : [My Own Bots](https://myownbots.t.me)
-
-Group : [Support Chat](https://devschatst.me)
-
-Framework : [Pyrogram](docs.pyrogram.org)
-
-Language : [Python](www.python.org)
-
-Credits : [Special Thanks](https://graph.org/Credits-Of-ChannelActionBot-02-23)
-
 __If You Have Any Problems With This Bot, Kindly Report On__ @DevsChats.
           """
