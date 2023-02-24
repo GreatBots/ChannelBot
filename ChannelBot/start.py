@@ -11,8 +11,11 @@ async def start(bot, msg):
 	await bot.send_message(
 		msg.chat.id,
 		Data.START.format(msg.from_user.mention, mention),
-		reply_markup=InlineKeyboardMarkup(Data.buttons),
-		ReplyKeyboardMarkup(
+		reply_markup=InlineKeyboardMarkup(Data.buttons)
+	)
+	await bot.send_message(
+                msg.chat.id,
+		reply_markup=ReplyKeyboardMarkup(
 			[
 				['+ Add Channels +'],
 				['Manage Channels'],
@@ -21,5 +24,6 @@ async def start(bot, msg):
 			one_time_keyboard=True,
 			resize_keyboard=True
 		)
+	)
 			
 	
